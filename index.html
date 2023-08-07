@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <form id="form" action="#">
+        <input type="text" id="location" placeholder="Enter Location" />
+        <button type="submit" id="search">
+          <img src="./images/magnify.svg" alt="search" />
+        </button>
+      </form>
+    </header>
+
+    <main>
+      <div class="card">
+        <div class="location"></div>
+        <div class="current-weather">
+          <div class="hero">
+            <div class="temperature"></div>
+            <div class="condition"></div>
+          </div>
+          <div class="extra"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      Image by
+      <a
+        href="https://www.freepik.com/free-vector/classic-blue-wallpaper-abstract-style_6843155.htm#page=3&query=abstract%20background&position=9&from_view=search"
+        >Freepik</a
+      >
+    </footer>
+  </body>
+</html>

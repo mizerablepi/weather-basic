@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  background-image: url("./images/bg.jpg");
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+#location {
+  background-color: rgba(197, 197, 197, 0.5);
+  border: none;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+#location::placeholder {
+  color: white;
+}
+
+#search {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+#search img {
+  height: 2rem;
+}
+
+main {
+  align-self: center;
+  margin-top: 5rem;
+  background-color: #608094;
+  border-radius: 0.4rem;
+}
+
+.card {
+  background-color: #efefef;
+  width: 33rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+}
+
+.location {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.temperature {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: white;
+}
